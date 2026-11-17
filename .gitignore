@@ -1,0 +1,34 @@
+# --- Pesos de modelos YOLOv8 (se descargan solos al ejecutar) ---
+*.pt
+*.pth
+*.onnx
+
+# --- Vídeos brutos y resultados pesados ---
+*.avi
+*.mp4
+*.mkv
+*.mov
+
+# --- Scripts antiguos o borradores locales ---
+detector(antiguo).py
+detector(comentado).py
+Notas Videos.txt
+
+# --- Entornos virtuales y caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# --- Archivos de configuración de IDEs (VS Code / PyCharm) ---
+.vscode/
+.idea/
+
+# --- Archivos temporales del sistema operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
